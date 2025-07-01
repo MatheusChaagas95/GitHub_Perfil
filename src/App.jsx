@@ -9,7 +9,7 @@ function App() {
 
 	return (
 		<>
-			<input type="text" onBlur={(e) => setNomeUsuario(e.target.value)}  />
+			<input className="githubInput" type="text" onBlur={(e) => setNomeUsuario(e.target.value)} />
 
 			{nomeUsuario.length > 4 && (
 				<>
